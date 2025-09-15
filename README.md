@@ -1,34 +1,34 @@
 # Lab-2
-## Лабораторная работа №2
+## Laboratory Work №2
 
-**Задание**
+**Task**
 
-Используя приложенный файл ```books.csv``` ИЛИ ```books-en.csv```, выполнить следующее:  
-* Вывести количество записей, у которых в поле ```Название``` строка длиннее 30 символов.
-* Реализовать поиск книги по автору, использовать ограничение на выдачу в зависимости от варианта.
-* Реализовать генератор библиографических ссылок вида ```<автор>. <название> - <год>``` для 20 записей. Записи выбрать произвольно. Список сохраняется как отдельный файл текстового формата с нумерацией строк.
+Using the attached file ```books.csv``` OR ```books-en.csv```, complete the following:  
+* Output the number of records where the ```Title``` field string is longer than 30 characters.  
+* Implement a book search by author, using the result limitation according to your variant.  
+* Implement a generator of bibliographic references in the format ```<author>. <title> - <year>``` for 20 records. The records are chosen arbitrarily. Save the list as a separate text file with line numbering.  
 
-Используя приложенный файл ```currency.xml```, выполнить следующее:  
-* Распарсить файл и извлечь данные, согласно варианту. Выполнить приведения типов по необходимости.  
+Using the attached file ```currency.xml```, complete the following:  
+* Parse the file and extract the data according to your variant. Perform type conversions if necessary.  
 
-**Допзадание:**
-* Вывести перечень всех тегов без повторений (для ```books-en.csv``` - перечень издательств без повторений).
-* Самые популярные 20 книг.
+**Additional Task:**  
+* Output a list of all tags without repetitions (for ```books-en.csv``` – a list of publishers without repetitions).  
+* The 20 most popular books.  
 
-| Варианты | Ограничения books.csv | Ограничения books-en.csv | XML |
-| -------- | ----------- | ----------- | ---------- |
-| 1 | До 150 рублей | До 150 рублей | Словарь "Name - Value" |
-| 2 | До 2016 года | 1991 и 1996 года | Два отдельных списка Name и Value |
-| 3 | Только 2014, 2016 и 2017 года | До 1990 года | Список Name, но только для валют с Nominal=1 |
-| 4 | До 200 рублей | До 200 рублей | Словарь "NumCode - CharCode" |
-| 5 | Нет | Нет | Два отдельных списка CharCode и Value |
-| 6 |	От 150 рублей | От 150 рублей | Средний показатель Value |
-| 7 | От 2016 до 2018 года | От 1991 до 1995 | Список CharCode, но только для валют с Nominal=10 или Nominal=100 |
-| 8 | Только 2015 и 2018 года | books-en - от 1997 до 2000 | Словарь "CharCode - Nominal" |
-| 9 | От 200 рублей | От 200 рублей | Два отдельных списка NumCode и CharCode |
-| 10 | От 2018 года | От 2000 года | Словарь "Name - CharCode" |
+| Variants | Restrictions books.csv | Restrictions books-en.csv | XML |
+| -------- | ---------------------- | ------------------------- | --- |
+| 1 | Up to 150 rubles | Up to 150 rubles | Dictionary "Name - Value" |
+| 2 | Up to 2016 year | 1991 and 1996 year | Two separate lists: Name and Value |
+| 3 | Only 2014, 2016 and 2017 year | Up to 1990 year | List of Name, but only for currencies with Nominal=1 |
+| 4 | Up to 200 rubles | Up to 200 rubles | Dictionary "NumCode - CharCode" |
+| 5 | None | None | Two separate lists: CharCode and Value |
+| 6 | From 150 rubles | From 150 rubles | Average Value |
+| 7 | From 2016 to 2018 year | From 1991 to 1995 year | List of CharCode, but only for currencies with Nominal=10 or Nominal=100 |
+| 8 | Only 2015 and 2018 year | books-en – from 1997 to 2000 year | Dictionary "CharCode - Nominal" |
+| 9 | From 200 rubles | From 200 rubles | Two separate lists: NumCode and CharCode |
+| 10 | From 2018 year | From 2000 year | Dictionary "Name - CharCode" |
 
-**Ссылки**  
-* О формате CSV: https://blog.skillfactory.ru/glossary/csv/  
-* О библиотеке xml.dom: https://docs.python.org/3/library/xml.dom.minidom.html  
-* О формате XML: https://help.reg.ru/support/hosting/razmeshcheniye-sayta-otobrazheniye-v-brauzere/chto-takoye-format-xml
+**Links**  
+* About CSV format: https://blog.skillfactory.ru/glossary/csv/  
+* About xml.dom library: https://docs.python.org/3/library/xml.dom.minidom.html  
+* About XML format: https://help.reg.ru/support/hosting/razmeshcheniye-sayta-otobrazheniye-v-brauzere/chto-takoye-format-xml  
